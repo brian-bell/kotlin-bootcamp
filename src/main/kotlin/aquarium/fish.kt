@@ -11,13 +11,13 @@ class Fish(val friendly: Boolean = true, volumeNeeded: Int) {
         println("running secondary constructor")
     }
 
-    init {
-        if (friendly) {
-            size = volumeNeeded
-        } else {
-            volumeNeeded = volumeNeeded * 2
-        }
-    }
+//    init {
+//        if (friendly) {
+//            size = volumeNeeded
+//        } else {
+//            volumeNeeded = volumeNeeded * 2
+//        }
+//    }
 
     init {
         println("constructed fihs of size $volumeNeeded final size ${this.size}")
